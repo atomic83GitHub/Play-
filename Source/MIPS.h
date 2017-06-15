@@ -128,6 +128,7 @@ public:
 
 	void						Reset();
 
+	bool						CanGenerateInterrupt() const;
 	bool						GenerateInterrupt(uint32);
 	bool						GenerateException(uint32);
 
